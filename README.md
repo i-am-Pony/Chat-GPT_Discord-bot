@@ -19,6 +19,7 @@ Once the bot is added to your server, you can interact with it by mentioning it 
 
 
 
+
 SECOND:
 You will need to write some code to use, to program the bot created above, to interact with Chat-GPT. 
   
