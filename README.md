@@ -22,6 +22,7 @@ Once the bot is added to your server, you can interact with it by mentioning it 
   
 Here is a sample code snippet in Python using the discord.py library that you can use to program the bot to interact with Chat-GPT:
 
+
   
 import os
 import discord
@@ -58,16 +59,20 @@ async def on_message(message):
         await message.channel.send(response.choices[0].text)
         
 client.run(TOKEN)
+
+  
   
   
 This script uses the discord.py library to create a bot that connects to Discord, and uses the OpenAI API to generate responses to messages that it receives in the chat.
 
 To use this code, you will need to create a .env file in the same directory as the script, and add your Discord bot token and OpenAI API key to it like this:
   
+  
 
 DISCORD_TOKEN=<your Discord bot token>
 DISCORD_GUILD=<your Discord guild name>
 OPENAI_API_KEY=<your OpenAI API key>
+  
   
   
   Once you have added your credentials to the .env file, you can run the script to start your bot. You will need to invite your bot to your Discord server using the client ID generated when you created your bot.
