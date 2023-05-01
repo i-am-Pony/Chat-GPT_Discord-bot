@@ -3,7 +3,7 @@ Add Chat-GPT to Your Discord Server! Use this super easy method to add Chat-GPT 
 Remember this is a WIP and I am trying to implement this myself as I write this, so you may want to wait until I have fully implemented, or ask someone with more years of experience with Python to help you in the meantime.
 
 
-FIRST:
+###FIRST:
 You will need to create a bot in your Discord server.
 
 To add a bot to your Discord server, you can follow these steps:
@@ -18,9 +18,9 @@ To add a bot to your Discord server, you can follow these steps:
 Once the bot is added to your server, you can interact with it by mentioning it in a text channel or sending it a direct message. Note that you will need to write some code or use an existing bot framework to program the bot to respond to specific commands or messages.
 
 
+##
 
-
-SECOND:
+###SECOND:
 You will need to write some code to use, to program the bot created above, to interact with Chat-GPT. 
   
 There is a sample code snippet in Python using the discord.py library that you can use to program the bot to interact with Chat-GPT in:
@@ -34,5 +34,5 @@ To use this code, you will need to create a .env file in the same directory as t
 Once you have added your credentials to the .env file, you can run the script to start your bot. You will need to invite your bot to your Discord server using the client ID generated when you created your bot.
 
 You do not need to refresh or restart anything each time you make changes to the code - you can just save the file and re-run it to see the changes take effect. However, keep in mind that any changes you make will only apply to new messages that the bot receives - it will not retroactively change its response to messages that it has already received.
-  
+ ## 
   Good Luck and Happy Coding.
